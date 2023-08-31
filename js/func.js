@@ -1,10 +1,12 @@
 'use strict';
 
+// Function Declaration
 function greet() {
     let name = prompt('Enter your name: ', 'noname');
     alert(`Hi ${name}!`);
 }
 
+// Function Expression
 let askAge = function() {
     let age = prompt('Enter your age: ', 18);
     let message;
@@ -19,5 +21,9 @@ let askAge = function() {
     alert(message);
 };
 
+// Arrow Function
+let sum = (a, b) => a + b;
+
 greet();
 askAge();
+alert(sum(47, 73));
