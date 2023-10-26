@@ -8,12 +8,21 @@
 <body>
     <h1 id="main-heading">Hello to Guessing Game</h1>
 
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script>
+        let updatedHeadingtext = prompt("enter updated text");
+        $("#main-heading").text(updatedHeadingtext);
+    </script>
+<!-- DOM
     <script>
         let headingElement = document.getElementById("main-heading");
         alert(headingElement.innerHTML);
         let newHeadingElement = prompt("enter new heading:");
         headingElement.innerHTML = newHeadingElement;
     </script>
+-->
  <!-- <script src="js/obj1.js"></script> -->
+
 </body>
 </html>
